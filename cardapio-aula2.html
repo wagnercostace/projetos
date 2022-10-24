@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Exercício Aula 02 - Pedidos</title>
+        <meta name="deion" content="Exercicio Aula 02 HTML">
+        <meta name="keywords" content="HTML,Wagner,Site">
+        <meta name="author" content="Wagner Costa">
+    </head>
+
+    <body style="font-family: verdana;">
+         <p style="color:brown; font-style: oblique;"><b>Delivery 24h</b></p>
+    
+    <hr>
+
+    <h1>Cardápio Super Dogão</h1>
+ 
+    <fieldset>
+        <legend><b>PREENCHA OS CAMPOS ABAIXO:</b></legend>
+<form action="resultado.html" target="_blank" method="getpost">
+    <label><b>Nome Completo: </b></label><input type="text" name="Nome" placeholder="Digite o seu nome" size="50" required>
+    <label><b>E-mail: </b></label><input type="email" name="Email" placeholder="Digite o seu e-mail" required size="50"><br><br>
+    <label><b>Endereço: </b></label><input type="text" name="Endereco" placeholder="Digite o seu endereço" required size="127"><br><br>
+    <label><b>Telefone: </b></label><input type="number" name="Telefone" placeholder="Digite o seu telefone" required size="30">
+    <label><b>Digite uma Senha: </b></label><input type="password" name="Senha" placeholder="Digite uma senha" size="75" required><br>
+    <br>
+
+    <label>
+        <label><b>Escolha o seu Hotdog:</b></label>
+        <select name="SabordoHotDog" required>
+            <option value="Dogão Tradicional">Dogão Tradicional</option>
+            <option value="Dogão Duplo">Dogão Duplo</option>
+            <option value="Dogão com Frango">Dogão com Frango</option>
+            <option value="Dogão com Carne">Dogão com Carne</option>
+        </select>
+    </label><br><br>
+
+    <label>
+        <label><b>Escolha o seu Adicional:</b></label><br>
+        <input type="checkbox" name="ItemA" value="Batata Palha">Batata Palha<br>
+        <input type="checkbox" name="ItemB" value="Calabresa">Calabresa<br>
+        <input type="checkbox" name="ItemC" value="Bacon">Bacon<br>
+        <input type="checkbox" name="ItemD" value="Cream Cheese">Cream Cheese<br>
+    </label><br>
+
+    <label>
+        <label><b>Escolha o seu Molho Extra:</b></label><br>
+        <input type="checkbox" name="MolhoA" value="Maionese Temperada">Maionese Temperada<br>
+        <input type="checkbox" name="MolhoB" value="Barbecue">Barbecue<br>
+        <input type="checkbox" name="MolhoC" value="Catchup e Mostarda">Catchup e Mostarda<br>
+        <input type="checkbox" name="MolhoD" value="Sem Molho Adicional">Sem Molho Adicional<br>
+    </label><br>
+
+
+    <label>
+        <label><b>Bebidas:</b></label><br>
+        <input type="checkbox" name="BebidaA" value="Coca-Cola">Coca-Cola<br>
+        <input type="checkbox" name="BebidaB" value="Pepsi">Pepsi<br>
+        <input type="checkbox" name="BebidaC" value="Coca-Cola Zero">Coca-Cola Zero<br>
+        <input type="checkbox" name="BebidaD" value="Sprite">Sprite<br>
+    </label><br>
+
+    <label>
+        <label><b>Forma de Pagamento:</b></label>
+        <select name="pagamento" required>
+            <option value="PIX">PIX</option>
+            <option value="Dinheiro">Dinheiro</option>
+            <option value="Cartão de Débito">Cartão de Débito</option>
+            <option value="Cartão de Crédito">Cartão de Crédito</option>
+        </select>
+    </label><br><br>   
+    
+    <input type="submit" name="enviar" value="Cadastrar">
+</form>
+</fieldset>
+    </body>
+    </html>
+    
